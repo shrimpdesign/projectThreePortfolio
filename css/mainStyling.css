@@ -8,15 +8,80 @@ html{
 
 }
 
-header {
-    background-color: ;
+header nav {
+    background-color: #a3b565;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+header a {
+    /* background-color: bisque; */
+    text-decoration: none;
+    color: #504e76;
+    padding: 8%;
+    font-family: "limon-regular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    align-items: center;
+}
+
+header img {
+    background-color: #f1642e;
+    width: 20%;
+    /* padding-top: 30px; */
 }
 
 body {
-    background-color: #fcdd9d;
+    background-color: #fdf8e2;
 }
 
-img {
+h1 {
+    font-family: "limon-regular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+    text-align: center;
+    letter-spacing: 20px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: #f1642e;
+}
+
+.intro {
+    background-color: #fcdd9d;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.intro p {
+    /* background-color: cadetblue; */
+    margin: 5%;
+    text-align: justify;
+}
+
+.intro img {
+    background-color: #c4c3e3;
     width: 35%;
-    padding-left: 5%;
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    left: 2%;
+    
+}
+
+footer {
+    background-color: #a3b565;
+    padding-bottom: 5%;
+    color: #504e76;
+    font-family: "limon-regular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
