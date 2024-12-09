@@ -69,6 +69,7 @@ h1 {
 
 .dayOne {
     background-color: #fdf8e2;
+    border-left: 5px solid #a3b565;
     padding: 5%;
     text-align: justify;
     line-height: 2;
@@ -76,6 +77,7 @@ h1 {
 
 .dayTwo {
     background-color: #fdf8e2;
+    border-right: 5px solid #a3b565;
     padding: 5%;
     text-align: justify;
     line-height: 2;
@@ -83,6 +85,7 @@ h1 {
 
 .dayThree {
     background-color: #fdf8e2;
+    border-left: 5px solid #a3b565;
     padding: 5%;
     text-align: justify;
     line-height: 2;
