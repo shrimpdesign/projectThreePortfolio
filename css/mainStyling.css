@@ -5,7 +5,8 @@
 }
 
 html{
-
+    height: 100vh;
+    width: 100%;
 }
 
 header nav {
@@ -28,8 +29,13 @@ header a {
     align-items: center;
 }
 
+header a:hover {
+    color: #fdf8e2;
+    text-decoration: underline;
+}
+
 header img {
-    background-color: #f1642e;
+    /* background-color: #f1642e; */
     width: 20%;
     /* padding-top: 30px; */
 }
@@ -48,6 +54,7 @@ h1 {
     padding-top: 10%;
     padding-bottom: 5%;
     color: #f1642e;
+    text-shadow: 5px 5px 10px#fcdd9d;
 }
 
 .intro {
@@ -64,7 +71,29 @@ h1 {
 .intro p {
     /* background-color: cadetblue; */
     margin: 5%;
+    font-family: "century-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15pt;
+    line-height: 2;
     text-align: justify;
+}
+
+.intro a {
+    /* background-color: #a3b565; */
+    color: #8894b7;
+    text-decoration: none;
+    font-size: 25pt;
+    padding: 2%;
+    position: relative;
+    left: 20%;
+    top: 15%;
+}
+
+.intro a:hover {
+    color: #504e76;
+    text-decoration: underline;
+    transition: all 0.3s ease;
 }
 
 .intro img {
@@ -79,9 +108,33 @@ h1 {
 
 footer {
     background-color: #a3b565;
+    padding-top: 3%;
     padding-bottom: 5%;
     color: #504e76;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-family: "century-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+}
+
+.footheader {
     font-family: "limon-regular", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20pt;
+}
+
+.footheader:hover {
+    color: #fdf8e2;
+    text-decoration: underline;
 }
