@@ -93,8 +93,10 @@ h2 {
 }
 
 .intro a {
-    /* background-color: #a3b565; */
-    color: #8894b7;
+    background-color: #fdf8e2;
+    border-radius: 10px;
+    /* color: #8894b7; */
+    color: #504e76;
     text-decoration: none;
     font-size: 25pt;
     padding: 2%;
@@ -105,6 +107,7 @@ h2 {
 
 .intro a:hover {
     color: #504e76;
+    background-color: #c4c3e3;
     text-decoration: underline;
     transition: all 0.3s ease;
 }
